@@ -1,51 +1,66 @@
 {
   "pages": [
-    
+    "pages/index/index",
+    "pages/user/user",
     "pages/date/index/index",
     "pages/date/result/result",
     "pages/date/class/class",
-    
-    
+    "pages/library/myinfor/index/index",
+    "pages/library/search/search",
+    "pages/library/myinfor/history/history",
+    "pages/library/rank/rank",
     "pages/electricity/index/index",
-    "pages/repair/index/index",
+    "pages/repair/detail/detail",
+    "pages/library/myinfor/owe/owe",
+    "pages/library/myinfor/page/page",
+    "pages/library/search/search",
+    "pages/library/rank/rank",
+    "pages/electricity/index/index",
     "pages/electricity/past/past",
     "pages/electricity/public/public",
-    "pages/index/index",
-    "pages/user/user",
-    "pages/repair/apply/apply",
     "pages/repair/detail/detail",
+    "pages/repair/index/index",
+    "pages/repair/apply/apply",
     "pages/repair/feedback/feedback",
-    "pages/repair/info/info"
+    "pages/repair/info/info",
+    "pages/activity/index/index",
+    "pages/activity/apply/apply"
     // Dont remove this comment
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "WeApp Boilerplate",
+    "navigationBarTitleText": "重邮帮",
     "backgroundColor": "#000000",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": true
   },
-  // "tabBar": {
-  //   "color": "#999999",
-  //   "selectedColor": "#35495e",
-  //   "borderStyle": "white",
-  //   "backgroundColor": "#f5f5f5",
-  //   "list": [
-  //     {
-  //       "text": "HOME",
-  //       "pagePath": "pages/index/index",
-  //       "iconPath": "images/icon_component.png",
-  //       "selectedIconPath": "images/icon_component_HL.png"
-  //     },
-  //     {
-  //       "text": "USER",
-  //       "pagePath": "pages/user/user",
-  //       "iconPath": "images/icon_API.png",
-  //       "selectedIconPath": "images/icon_API_HL.png"
-  //     }
-  //   ]
-  // },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tab--index__blur.png",
+        "selectedIconPath": "images/tab--index__focus.png"
+      },
+      {
+        "text": "活动",
+        "pagePath": "pages/activity/index/index",
+        "iconPath": "images/tab--act__blur.png",
+        "selectedIconPath": "images/tab--act__focus.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/electricity/index/index",
+        "iconPath": "images/tab--my__blur.png",
+        "selectedIconPath": "images/tab--my__focus.png"
+      }
+    ]
+  },
   "networkTimeout": {
     "request": 10000,
     "downloadFile": 10000
