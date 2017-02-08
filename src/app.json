@@ -1,5 +1,11 @@
 {
   "pages": [
+    
+    "pages/date/index/index",
+    "pages/date/result/result",
+    "pages/date/class/class",
+    
+    
     "pages/electricity/index/index",
     "pages/repair/index/index",
     "pages/electricity/past/past",
